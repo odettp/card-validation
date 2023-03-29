@@ -8,7 +8,7 @@ Funcionalidades
 + Presiona el botón "confirmar" para validar tu tarjeta
 - Este validador solo muestra los últimos cuatro dígitos por razones de seguridad
 - No esta permitido ingresar campos vacios ni letras
-<img src="card-validation.png">
+<img src="card-validation.png.png">
 
 Créditos
 Este proyecto fue creado por [Odett Pargas].
