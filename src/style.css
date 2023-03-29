@@ -1,0 +1,62 @@
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+main {
+  padding: 2em;
+  width: 400px;
+  height: 420px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#tarjeta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 200px;
+  height: 110px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 15px;
+  background: linear-gradient(45deg, black, gray);
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: #444;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 60%;
+  padding: 2px;
+  background: linear-gradient(45deg, black, gray);
+  color: white;
+  border-radius: 6px;
+}

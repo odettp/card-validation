@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <!-- Titulo -->
+      <h4>Ingresa los datos de tu tarjeta:</h4>
+    </header>
+
+    <main>
+      <!-- Tarjeta -->
+      <div id="tarjeta">
+        <span id="cardNumberSpan">xxx xxxx xxxx xxxx</span>
+      </div>
+
+      <form id="formValidacion">
+        <!-- Input -->
+
+        <input
+          id="creditCardInput"
+          name="creditCardInput"
+          type="number"
+          placeholder="Número de tarjeta"
+
+        />
+
+        <input
+          id="cardHolder"
+          name="cardHolder"
+          type="text"
+          placeholder="Titular de la tarjeta"
+        />
+
+        <!-- Boton -->
+        <button type="submit">Confirmar</button>
+      </form>
+    </main>
+
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
