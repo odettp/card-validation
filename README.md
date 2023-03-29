@@ -12,6 +12,4 @@ Funcionalidades
 
 Créditos
 Este proyecto fue creado por [Odett Pargas].
-
-Contacto
 Gracias por utilizar mi Validation, si tienes alguna pregunta o comentario sobre este proyecto, puedes contactarme.
