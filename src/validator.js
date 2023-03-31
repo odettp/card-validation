@@ -38,10 +38,10 @@ const validator = {
     // Utilizamos reduce para sumar los digitos dentro del arreglo
     const sumaTotal = sumarCifra.reduce((a, b) => Number(a) + Number(b), 0);
     if (sumaTotal % 10 === 0) {
-      console.log("la tarjeta es valida");
+      alert("¡Agradecemos su generosa donación!");
       return true;
     } else {
-      console.log("la tarjeta no es valida");
+      alert("La tarjeta no es valida");
       return false;
     }
   },
@@ -55,7 +55,6 @@ const validator = {
     // utilizamos el método substr(-4) y lo almacenamos en la variable last4Characters
     // Para obtener los ultimos 4 caracteres del num de la tarjeta
     const last4Characters = creditCardNumber.substr(-4);
-
     // Obtuvimos los caracteres, excepto los ultimos 4
     //Se reemplazan todos los digitos con "#"
     const maskingCharacters = creditCardNumber

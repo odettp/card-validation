@@ -8,39 +8,54 @@
   <body>
     <header>
       <!-- Titulo -->
-      <h4>Ingresa los datos de tu tarjeta:</h4>
+      <h2>DONAR ES UN ACTO DE AMOR</h2>
     </header>
 
     <main>
-      <!-- Tarjeta -->
-      <div id="tarjeta">
-        <span id="cardNumberSpan">xxx xxxx xxxx xxxx</span>
+      <div>
+        <img
+        src="https://gatogazzu.org/wp-content/uploads/2022/11/la-casa-del-gato-gazzu-1024x669.jpg"
+        alt="cat" class="img" ">
+        <h5>
+          Los donativos nos ayudan a pagar los gastos veterinarios,
+          medicamentos, cirugías, tratamientos, realizar esterilizaciones y
+          salvar vidas. Puedes hacer tus donativos económicos🤝.
+        </h5>
+        <h5>
+          Cuando el hambre, la soledad y el maltrato rodean su vida, tu donativo
+          de cerca o a la distancia, puede hacer la diferencia en la vida de
+          estos gatitos vulnerables😻.
+        </h5>
       </div>
+      <div>
+        <h6>Ingresa los datos de tu tarjeta:</h6>
+        <!-- Tarjeta -->
+        <div id="tarjeta">
+          <span id="cardNumberSpan">xxx xxxx xxxx xxxx</span>
+        </div>
 
-      <form id="formValidacion">
-        <!-- Input -->
+        <form id="formValidacion">
+          <!-- Input -->
 
-        <input
-          id="creditCardInput"
-          name="creditCardInput"
-          type="number"
-          placeholder="Número de tarjeta"
+          <input
+            id="creditCardInput"
+            name="creditCardInput"
+            type="number"
+            placeholder="Número de tarjeta"
+          />
 
-        />
+          <input
+            id="cardHolder"
+            name="cardHolder"
+            type="text"
+            placeholder="Titular de la tarjeta"
+          />
 
-        <input
-          id="cardHolder"
-          name="cardHolder"
-          type="text"
-          placeholder="Titular de la tarjeta"
-        />
-
-        <!-- Boton -->
-        <button type="submit">Confirmar</button>
-      </form>
+          <!-- Boton -->
+          <button type="submit">Donar</button>
+        </form>
+      </div>
     </main>
-
-    <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
