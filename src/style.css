@@ -1,12 +1,12 @@
 body {
   font-family: sans-serif;
-  background-color: #FDEBD0;
+  background-color: #fdebd0;
   margin: 10px;
 }
 
-header{
+header {
   text-align: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 main {
@@ -21,10 +21,10 @@ main {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-main>div {
+main > div {
   width: 52%;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 form {
@@ -32,7 +32,6 @@ form {
   display: flex;
   flex-direction: column;
   align-self: center;
-
 }
 
 #tarjeta {
@@ -45,10 +44,10 @@ form {
   height: 100px;
   padding: 30px;
   margin-top: 15px;
-  background: linear-gradient(45deg, #FDEBD0, gray);
+  background: linear-gradient(45deg, #fdebd0, gray);
   box-sizing: border-box;
   border-radius: 8px;
-  color:black;
+  color: black;
 }
 
 input {
@@ -72,7 +71,7 @@ button {
 }
 
 img {
-  box-shadow: -3px -61px 78px -62px rgba(0,0,0,0.75);
+  box-shadow: -3px -61px 78px -62px rgba(0, 0, 0, 0.75);
 }
 
 h6 {

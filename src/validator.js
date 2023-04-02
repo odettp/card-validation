@@ -38,10 +38,8 @@ const validator = {
     // Utilizamos reduce para sumar los digitos dentro del arreglo
     const sumaTotal = sumarCifra.reduce((a, b) => Number(a) + Number(b), 0);
     if (sumaTotal % 10 === 0) {
-      alert("¡Agradecemos su generosa donación!");
       return true;
     } else {
-      alert("La tarjeta no es valida");
       return false;
     }
   },

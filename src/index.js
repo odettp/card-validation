@@ -12,14 +12,17 @@ formValidacion.addEventListener("submit", function (event) {
 
   // llamamos al objeto que dentro tiene un funcion llamada isvalid y se le pasa como parametro el numero de la tarjeta
   validator.isValid(creditCardNumber);
+  if (validator.isValid(creditCardNumber)) {
+    alert("¡Agradecemos su generosa donación!");
+  } else {
+    alert("La tarjeta no es valida");
+  }
 });
-
 // Buscamos el input en el doc html atraves del Id
 const creditCardInput = document.getElementById("creditCardInput");
 
 // addEventlistener al id del input con el evento keyup
 creditCardInput.addEventListener("keyup", function (event) {
-
   // Declaramos la variable, que genere un evento para acceder al elem html para recibir el valor
   const inputValue = event.target.value;
 
