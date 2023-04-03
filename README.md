@@ -10,7 +10,7 @@ Este proyecto es un validador de tarjetas que utiliza el algoritmo de Luhn, por 
 + Presiona el botón "Donar" para realizar tu donacion
 + Este validador solo muestra los últimos cuatro dígitos por razones de seguridad
 + No esta permitido ingresar campos vacios ni letras
-<img src="./src/img/card-validation.png">
+<img src=".img/card-validation.png">
 
 ## Decision de diseño📝
 
